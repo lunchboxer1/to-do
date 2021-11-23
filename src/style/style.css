@@ -1,0 +1,20 @@
+* {
+  color: blue;
+}
+
+body {
+  margin: 0px;
+}
+.mainContainer {
+  display: block;
+  margin: 0px;
+}
+
+.container2 {
+  display: flex;
+  
+  height:100vh;
+  width: auto;
+  margin: 0;
+
+}

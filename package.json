@@ -1,0 +1,43 @@
+{
+  "name": "to-do",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --watch",
+    "build": "webpack",
+    "serve": "webpack server --open",
+    "lint": "eslint --ext .js --ignore-path .gitignore .",
+    "prettier": "prettier --write .",
+    "prettier-check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunchboxer1/to-do.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lunchboxer1/to-do/issues"
+  },
+  "homepage": "https://github.com/lunchboxer1/to-do#readme",
+  "devDependencies": {
+    "css-loader": "^6.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "espree": "^7.3.1",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "2.4.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0"
+  }
+}
