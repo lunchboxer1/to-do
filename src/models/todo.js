@@ -1,8 +1,11 @@
-const todoFactory = (name, status) => {
+const TodoFactory = (name, status) => {
   // const todoName = name;
   // const todoStatus = status;
 
-  return { name, status };
+  return { 
+    name,
+    status,
+  };
 };
 
-export default todoFactory;
+export default TodoFactory;

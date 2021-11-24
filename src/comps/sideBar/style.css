@@ -1,5 +1,6 @@
 #sideBar {
   background-color: rgb(231, 6, 6);
+  
   flex: 1;
   max-width: 200px;
   padding: 20px;
